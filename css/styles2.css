@@ -1,0 +1,319 @@
+.normal-message-block {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: auto;
+}
+
+.white-center {
+  text-align: center;
+  color: #fff;
+}
+
+.white-left, photo, contactform, contactdata {
+  text-align: left;
+  color: #fff;
+}
+
+.our-story-card, photo, contactform, contactdata {
+  background: transparent;
+  border-bottom: 8px solid #222;
+  color: #fff;
+  margin-bottom: 0;
+  padding: 50px 5%;
+  position: relative;
+}
+
+body, html {
+  direction: ltr;
+  font-size: 16px;
+  color: #fff;
+  background: #000;
+}
+
+@font-face {
+  font-family: FuzzyBubblesFontsBold;
+  src: url(../fonts/FuzzyBubbles-Bold.ttf);
+}
+
+@font-face {
+  font-family: FuzzyBubblesFontsRegular;
+  src: url(../fonts/FuzzyBubbles-Regular.ttf);
+}
+
+@font-face {
+  font-family: AntonRegular;
+  src: url(../fonts/Anton-Regular.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptBold;
+  src: url(../fonts/static/DancingScript-Bold.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptMedium;
+  src: url(../fonts/static/DancingScript-Medium.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptRegular;
+  src: url(../fonts/static/DancingScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: DancingScriptSemiBold;
+  src: url(../fonts/static/DancingScript-SemiBold.ttf);
+}
+
+.bold-font {
+  font-size: 1.625rem;
+  font-weight: 400;
+}
+
+.bold-med-font, .icon-font, nav, photo h2, contactform h2, contactdata h2 {
+  font-size: 1.325rem;
+  font-weight: 400;
+}
+
+.big-title, .logo-font, span.logo-title, photo h1, contactform h1, contactdata h1 {
+  font-size: 3.125rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  font-family: DancingScriptSemiBold;
+}
+
+.nav-title, nav.dropdown {
+  font-size: 2.425rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+  font-family: DancingScriptSemiBold;
+}
+
+.small-title, copyright {
+  font-weight: 400;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+
+.faq-font {
+  display: block;
+  text-align: left;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.logo-font, span.logo-title {
+  font-family: AntonRegular;
+}
+
+.icon-font, nav {
+  font-family: DancingScriptSemiBold;
+}
+
+.flex-row, .flex-row-start, .flex-row-between, .flex-row-right,
+.flex-row-center-between, navbar, row, photo tag, contactform tag, contactdata tag {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-row-start, row {
+  align-items: flex-start;
+}
+
+.flex-row-between, .flex-row-center-between, photo tag, contactform tag,
+contactdata tag {
+  justify-content: space-between;
+}
+
+.flex-row-right, navbar {
+  justify-content: flex-end;
+}
+
+.flex-row-center-between {
+  justify-content: space-between;
+}
+
+.flex-footer-list-rows {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.flex-row-reverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.flex-row-center {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+header {
+  display: block;
+  background: url(../images/layouts/header.jpg);
+  height: 250px;
+}
+
+object.logo {
+  height: 100px;
+  width: 200px;
+  padding-top: 0.5rem;
+  padding-left: 2.5rem;
+  fill: #e50914;
+  line-height: normal;
+}
+
+span.logo-title {
+  position: relative;
+  top: -15px;
+  left: 10px;
+  color: #e50914;
+}
+
+nav {
+  color: #9acefe;
+  display: inline;
+  padding: 10px;
+  cursor: pointer;
+}
+
+nav:hover {
+  color: #c8996b;
+}
+
+navbar {
+  position: relative;
+  min-width: 100%;
+  right: 20px;
+  bottom: -60px;
+  text-align: right;
+}
+
+nav.dropdown {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  justify-content: flex-start;
+  cursor: pointer;
+  width: 200px;
+}
+nav.dropdown > span {
+  color: #9acefe;
+}
+nav.dropdown > span:hover {
+  color: #c8996b;
+}
+nav.dropdown > div.dropdown-content {
+  display: none;
+  position: absolute;
+  min-width: 160px;
+  z-index: 1;
+  padding-top: 100px;
+}
+nav.dropdown > div.dropdown-content > a {
+  display: block;
+  color: #8dad4c;
+}
+nav.dropdown > div.dropdown-content > a:hover {
+  color: #c8996b;
+}
+nav.dropdown nav.dropdown:hover {
+  color: #c8996b;
+}
+
+div#photolist {
+  display: block;
+}
+
+div#saveforlater {
+  display: none;
+}
+
+svg#like {
+  height: 30px;
+  width: 45px;
+}
+svg#like > g > polygon {
+  fill: yellow;
+  stroke: red;
+  stroke-width: 100;
+}
+
+footer {
+  display: block;
+  background: url(../images/layouts/footer.jpg);
+  height: 250px;
+}
+
+copyright {
+  text-align: center;
+  display: block;
+  color: #fff;
+  width: fit-content;
+  background: black;
+  border: 5px solid #586673;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+follow-me {
+  text-align: right;
+  display: block;
+  position: relative;
+  bottom: -150px;
+}
+follow-me > h2 {
+  color: #8b8b93;
+  padding-right: 20px;
+  padding-bottom: 0px;
+}
+
+like {
+  display: inline;
+}
+
+photo {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+photo img {
+  padding-right: 40px;
+}
+photo textarea {
+  display: block;
+}
+
+contactform {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+contactform img {
+  padding-right: 40px;
+}
+contactform textarea {
+  display: block;
+}
+contactform > text {
+  padding-right: 40px;
+}
+
+contactdata {
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+contactdata img {
+  padding-right: 40px;
+}
+contactdata textarea {
+  display: block;
+}

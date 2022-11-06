@@ -1,0 +1,50 @@
+// Define the display block.
+// photo, contact ...
+
+@mixin content($direction, $bigpicture: false) {
+	background-color: black;
+//	@extend .flex-row-center;
+    display: flex;
+    flex-direction: $direction;
+    align-items: center;
+
+	@extend .white-left;
+	@extend .our-story-card;
+
+	img {
+		padding-right: 40px;
+	}
+	
+	textarea {
+		display: block;
+	}
+
+	h1 {
+		@extend .big-title;
+	}
+
+	h2 {
+		@extend .bold-med-font;
+	}
+
+	tag {
+		@extend .flex-row-between;
+	}
+
+}
+
+photo {
+	@include content(row, $bigpicture: false);
+}
+
+contactform {
+	@include content(row, $bigpicture: false);
+	> text {
+		padding-right: 40px;
+	}
+}
+
+contactdata {
+	@include content(row, $bigpicture: false);
+}
+
