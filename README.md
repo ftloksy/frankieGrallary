@@ -12,13 +12,13 @@ Administers can follow this logic to modify the website and develop it or create
 
 ## folders.
 
-CSS is a website's style folder. It is compiled for the SCSS folder’s contents.
-Fonts define website’s using fonts.
-Images are storage website’s using images.
-includeHtml is a storage website’s html parts. You can cut every <div/> to here if you want.
-Script.js is stored in the script folder.
-Scss is defined at more different files, they are stored in the scss folder. They follow includeHtml’s parts.
-Svg is a storage folder, its storage website’s icon and logo. Svg tag is easy to append to html and do a good css control.
+- CSS is a website's style folder. It is compiled from the SCSS folder’s contents.
+- Fonts define website’s using fonts.
+- Images are storage website’s using images.
+- includeHtml is a storage website’s html parts. You can cut every <div/> to here if you want.
+- Script.js is stored in the script folder.
+- Scss is defined at more different files, they are stored in the scss folder. They follow includeHtml’s parts.
+- Svg is a storage folder, its storage website’s icon and logo. Svg tag is easy to append to html and do a good css control.
 
 # Installation
 
