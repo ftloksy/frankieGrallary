@@ -23,3 +23,5 @@ Administers can follow this logic to modify the website and develop it or create
 # Installation
 
 You can download it all in a web server's folder. And use firefox or chrome to access index.html’s url. Then you can browse this.
+
+![Frankie Gallery screen short](images/frankieGrallary.jpg)
