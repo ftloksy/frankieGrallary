@@ -1,6 +1,6 @@
 # frankieGrallary
 
-you can access my website at https://ftloksy.github.io/frankieGrallary/ .
+you can access my website at [https://ftloksy.github.io/frankieGrallary/](https://ftloksy.github.io/frankieGrallary/) .
 
 # Frankie Gallery
 
