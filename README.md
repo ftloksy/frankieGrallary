@@ -1,5 +1,7 @@
 # frankieGrallary
 
+you can access my website at https://ftloksy.github.io/frankieGrallary/ .
+
 # Frankie Gallery
 
 This is  Frankie's gallery. It will show four photos. You can like it, add a comment to it.
